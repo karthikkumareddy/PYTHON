@@ -1,0 +1,10 @@
+n = int(input("enter the number"))
+a= 0 
+b = 1
+while n > 0:
+    print(a,end=" ")
+    temp = a
+    a = b
+    b = temp + b
+    n = n -1
+
