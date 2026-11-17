@@ -4,8 +4,10 @@ n = 5
 for i in range(n):
     for j in range(i + 1):
         print("*", end=" ")
-    for s in range(2 * i, 2 * (n - 1)):
+    for s in range(i,n-1):
         print(" ", end=" ")
+    for s in range(i,n-1):
+        print(" ",end = " ")
     for j in range(i + 1):
         print("*", end=" ")
     print()
